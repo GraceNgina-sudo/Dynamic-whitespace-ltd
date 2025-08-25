@@ -1,0 +1,59 @@
+{
+  "lang": "es",
+  "meta_description": "Dynamic WhiteSpace Ltd es una firma de consultoría de relaciones públicas y gestión de marca. Nos especializamos en contar historias, construir y posicionar marcas para que perduren y creen un legado duradero.",
+  "site_title": "Dynamic WhiteSpace Ltd | Relaciones Públicas y Gestión de Marca",
+  "brand_name": "Dynamic WhiteSpace Ltd",
+
+  "nav_home": "Inicio",
+  "nav_about": "Sobre Nosotros",
+  "nav_services": "Servicios",
+  "nav_blog": "Blog",
+  "nav_contact": "Contacto",
+
+  "hero_title": "Construyendo Marcas Que Perduran Toda la Vida",
+  "hero_subtitle": "Dynamic WhiteSpace Ltd - Consultoría de Relaciones Públicas y Gestión de Marca",
+  "contact_button": "Contáctanos",
+
+  "about_title": "Sobre Nosotros",
+  "about_text": "Dynamic WhiteSpace Ltd es una firma de consultoría de relaciones públicas y gestión de marca. Nos especializamos en contar historias, construir y posicionar marcas para que perduren y creen un legado duradero.",
+
+  "services_title": "Nuestros Servicios",
+  "service1_title": "Relaciones Públicas y Medios",
+  "service1_text": "Estrategias de relaciones públicas personalizadas para aerolíneas, firmas legales, corporaciones, figuras políticas e inmobiliarias.",
+  "service2_title": "Gestión de Marca",
+  "service2_text": "Posiciona tu marca de manera efectiva en mercados competitivos para generar confianza e historias memorables.",
+  "service3_title": "Consultoría y Estrategia",
+  "service3_text": "Asesoría experta en marketing, legado de marca y posicionamiento personalizado para las necesidades de tu industria.",
+
+  "blog_title": "Últimas Noticias y Actualizaciones",
+  "blog_text": "Contenido del blog próximamente.",
+
+  "newsletter_title": "Suscríbete a Nuestro Boletín",
+  "newsletter_email_label": "Dirección de Correo",
+  "newsletter_email_placeholder": "Ingresa tu correo",
+  "newsletter_fname_label": "Nombre",
+  "newsletter_fname_placeholder": "Ingresa tu nombre",
+  "newsletter_lname_label": "Apellido",
+  "newsletter_lname_placeholder": "Ingresa tu apellido",
+  "newsletter_phone_label": "Número de Teléfono",
+  "newsletter_phone_placeholder": "Ingresa tu número de teléfono",
+  "newsletter_submit": "Suscribirse",
+
+  "contact_title": "Contáctanos",
+  "contact_name": "Nombre Completo",
+  "contact_name_error": "Por favor ingresa tu nombre.",
+  "contact_email": "Correo Electrónico",
+  "contact_email_error": "Por favor ingresa una dirección de correo válida.",
+  "contact_message": "Mensaje",
+  "contact_message_error": "Por favor ingresa un mensaje.",
+  "contact_submit": "Enviar Mensaje",
+  "form_success": "¡Gracias por contactarnos! Nos pondremos en contacto contigo pronto.",
+
+  "footer_copy": "© 2025 Dynamic WhiteSpace Ltd. Todos los derechos reservados.",
+  "footer_email": "Email.",
+  "footer_phone": "Teléfono: 0746268687",
+  "footer_twitter": "Twitter",
+  "footer_facebook": "Facebook",
+  "footer_linkedin": "LinkedIn.",
+  "footer_instagram": "Instagram"
+}

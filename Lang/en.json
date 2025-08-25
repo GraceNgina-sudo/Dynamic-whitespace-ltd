@@ -1,0 +1,59 @@
+{
+  "lang": "en",
+  "meta_description": "Dynamic Whitespace Ltd is a PR and Brand Management Consultancy Firm. We specialize in telling stories, building, and positioning brands to stand the test of time and create a lasting legacy.",
+  "site_title": "Dynamic WhiteSpace Ltd | PR & Brand Management",
+  "brand_name": "Dynamic WhiteSpace Ltd",
+
+  "nav_home": "Home",
+  "nav_about": "About Us",
+  "nav_services": "Services",
+  "nav_blog": "Blog",
+  "nav_contact": "Contact",
+
+  "hero_title": "Building Brands That Last a Lifetime",
+  "hero_subtitle": "Dynamic WhiteSpace Ltd - PR & Brand Management Consultancy",
+  "contact_button": "Contact Us",
+
+  "about_title": "About Us",
+  "about_text": "Dynamic WhiteSpace Ltd is a PR and Brand Management Consultancy Firm. We specialize in telling stories, building, and positioning brands to stand the test of time and create a lasting legacy.",
+
+  "services_title": "Our Services",
+  "service1_title": "PR & Media Relations",
+  "service1_text": "Tailored public relations strategies for airlines, law firms, corporate, political individuals, and real estate.",
+  "service2_title": "Brand Management",
+  "service2_text": "Position your brand effectively in competitive markets to build trust and memorable stories.",
+  "service3_title": "Consulting & Strategy",
+  "service3_text": "Expert advice on marketing, brand legacy, and positioning tailored to your industry needs.",
+
+  "blog_title": "Latest News & Updates",
+  "blog_text": "Blog content coming soon.",
+
+  "newsletter_title": "Subscribe to Our Newsletter",
+  "newsletter_email_label": "Email Address",
+  "newsletter_email_placeholder": "Enter your email",
+  "newsletter_fname_label": "First Name",
+  "newsletter_fname_placeholder": "Enter your first name",
+  "newsletter_lname_label": "Last Name",
+  "newsletter_lname_placeholder": "Enter your last name",
+  "newsletter_phone_label": "Phone Number",
+  "newsletter_phone_placeholder": "Enter your phone number",
+  "newsletter_submit": "Subscribe",
+
+  "contact_title": "Contact Us",
+  "contact_name": "Full Name",
+  "contact_name_error": "Please enter your name.",
+  "contact_email": "Email Address",
+  "contact_email_error": "Please enter a valid email address.",
+  "contact_message": "Message",
+  "contact_message_error": "Please enter a message.",
+  "contact_submit": "Send Message",
+  "form_success": "Thank you for contacting us! We will get back to you shortly.",
+
+  "footer_copy": "© 2025 Dynamic WhiteSpace Ltd. All Rights Reserved.",
+  "footer_email": "Email.",
+  "footer_phone": "Phone: 0746268687",
+  "footer_twitter": "Twitter",
+  "footer_facebook": "Facebook",
+  "footer_linkedin": "LinkedIn.",
+  "footer_instagram": "Instagram"
+}

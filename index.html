@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Dynamic Whitespace Ltd is a PR and Brand Management Consultancy Firm. We specialize in telling stories, building, and positioning brands to stand the test of time and create a lasting legacy." />
+  <meta name="keywords" content="Public relations, marketing, consulting, Airline brand management, Airline Marketing, Real Estate marketing, Brand management in Kenya">
+  <title data-i18n="site_title">Dynamic WhiteSpace Ltd | PR & Brand Management</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta property="og:title" content="Dynamic WhiteSpace Ltd | PR & Brand Management">
+  <meta property="og:description" content="We tell stories. Building and positioning brands to stand the test of time and build legacy.">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:url" content="https://yourdomain.com">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-azure">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="Dynamic WhiteSpace Ltd Logo - PR & Brand Management" class="logo" />
+        <span data-i18n="brand_name">Dynamic WhiteSpace Ltd</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#" data-i18n="nav_home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav_about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services" data-i18n="nav_services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#blog" data-i18n="nav_blog">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav_contact">Contact</a></li>
+
+          <!-- Language Switcher -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="languageDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Language
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+              <li><a class="dropdown-item lang-option" href="#" data-lang="en">English</a></li>
+              <li><a class="dropdown-item lang-option" href="#" data-lang="es">Español</a></li>
+              <li><a class="dropdown-item lang-option" href="#" data-lang="fr">Français</a></li>
+            </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero bg-white text-dark-azure text-center py-5">
+    <div class="container">
+      <h1 class="hero-title" data-i18n="hero_title">Building Brands That Last a Lifetime</h1>
+      <p class="lead mb-4" data-i18n="hero_subtitle">Dynamic WhiteSpace Ltd - PR & Brand Management Consultancy</p>
+      <a href="#contact" class="btn btn-gold btn-lg" data-i18n="contact_button">Contact Us</a>
+    </div>
+  </header>
+
+  <!-- About Us -->
+  <section id="about" class="container py-5">
+    <h2 class="section-title text-dark-azure mb-4" data-i18n="about_title">About Us</h2>
+    <p data-i18n="about_text">
+      Dynamic WhiteSpace Ltd is a PR and Brand Management Consultancy Firm. We specialize in telling stories,
+      building, and positioning brands to stand the test of time and create a lasting legacy.
+    </p>
+  </section>
+  <!-- Services -->
+  <section id="services" class="bg-light py-5">
+    <div class="container">
+      <h2 class="section-title text-dark-azure mb-4" data-i18n="services_title">Our Services</h2>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 border-gold">
+            <div class="service-card">
+              <span class="service-icon"><i class="bi bi-megaphone"></i></span>
+              <h3 data-i18n="service1_title">PR & Media Relations</h3>
+              <p data-i18n="service1_text">
+                Tailored public relations strategies for airlines, law firms, corporate, political individuals, and real estate.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 border-gold">
+            <div class="card-body">
+              <h3 class="card-title text-gold" data-i18n="service2_title">Brand Management</h3>
+              <p class="card-text" data-i18n="service2_text">
+                Position your brand effectively in competitive markets to build trust and memorable stories.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card h-100 border-gold">
+            <div class="card-body">
+              <h3 class="card-title text-gold" data-i18n="service3_title">Consulting & Strategy</h3>
+              <p class="card-text" data-i18n="service3_text">
+                Expert advice on marketing, brand legacy, and positioning tailored to your industry needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Blog -->
+  <section id="blog" class="container py-5">
+    <h2 class="section-title text-dark-azure mb-4" data-i18n="blog_title">Latest News & Updates</h2>
+    <div>
+      <p data-i18n="blog_text">Blog content coming soon.</p>
+    </div>
+  </section>
+  <!-- Newsletter Signup Section -->
+<section id="newsletter" class="container py-5">
+  <h2 class="section-title text-dark-azure mb-4" data-i18n="newsletter_title">Subscribe to Our Newsletter</h2>
+  <div id="mc_embed_signup" class="mx-auto" style="max-width: 100%; width: 100%;">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" />
+    <style>
+      #mc_embed_signup {
+        background: #fff;
+        clear: left;
+        font: 14px Helvetica, Arial, sans-serif;
+        width: 100% !important;
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      #mc_embed_signup form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+      #mc_embed_signup input.email, 
+      #mc_embed_signup input.text, 
+      #mc_embed_signup input.button {
+        width: 100% !important;
+        box-sizing: border-box;
+      }
+      #mc_embed_signup .button {
+        background-color: #c49a53; /* btn-gold color */
+        border: none;
+        padding: 0.5rem 1rem;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 0.25rem;
+      }
+      #mc_embed_signup .button:hover {
+        background-color: #a67c35;
+      }
+      @media (max-width: 576px) {
+        #mc_embed_signup {
+          max-width: 100%;
+        }
+      }
+    </style>
+    <form action="https://notlaunched.us19.list-manage.com/subscribe/post?u=80f6424103579a50e906cd219&amp;id=b34fab6c6a&amp;f_id=003d7ee7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <div id="mc_embed_signup_scroll">
+        <h2 data-i18n="newsletter_title">Subscribe</h2>
+        <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+        <div class="mc-field-group">
+          <label for="mce-EMAIL" data-i18n="newsletter_email_label">Email Address <span class="asterisk">*</span></label>
+          <input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required data-i18n-placeholder="newsletter_email_placeholder" />
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-FNAME" data-i18n="newsletter_fname_label">First Name</label>
+          <input type="text" name="FNAME" class="text" id="mce-FNAME" data-i18n-placeholder="newsletter_fname_placeholder" />
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-LNAME" data-i18n="newsletter_lname_label">Last Name</label>
+          <input type="text" name="LNAME" class="text" id="mce-LNAME" data-i18n-placeholder="newsletter_lname_placeholder" />
+        </div>
+        <div class="mc-field-group">
+          <label for="mce-PHONE" data-i18n="newsletter_phone_label">Phone Number</label>
+          <input type="text" name="PHONE" class="REQ_CSS" id="mce-PHONE" data-i18n-placeholder="newsletter_phone_placeholder" />
+        </div>
+        <div id="mce-responses" class="clear foot">
+          <div class="response" id="mce-error-response" style="display:none;"></div>
+          <div class="response" id="mce-success-response" style="display:none;"></div>
+        </div>
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_80f6424103579a50e906cd219_b34fab6c6a" tabindex="-1" value="" />
+        </div>
+        <div class="optionalParent">
+          <div class="clear foot">
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" data-i18n="newsletter_submit"/>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+  <script>
+    (function ($) {
+      window.fnames = new Array(); window.ftypes = new Array();
+      fnames[0] = "EMAIL"; ftypes[0] = "email";
+      fnames[1] = "FNAME"; ftypes[1] = "text";
+      fnames[2] = "LNAME"; ftypes[2] = "text";
+      fnames[4] = "PHONE"; ftypes[4] = "phone";
+      fnames[3] = "ADDRESS"; ftypes[3] = "address";
+      fnames[5] = "BIRTHDAY"; ftypes[5] = "birthday";
+      fnames[6] = "COMPANY"; ftypes[6] = "text";
+    })(jQuery);
+    var $mcj = jQuery.noConflict(true);
+  </script>
+</section>
+<!-- Contact -->
+  <section id="contact" class="container py-5">
+    <h2 class="section-title text-dark-azure mb-4" data-i18n="contact_title">Contact Us</h2>
+    <form action="contact.php" method="POST" novalidate id="contactForm">
+      <div class="mb-3">
+        <label for="name" class="form-label" data-i18n="contact_name">Full Name</label>
+        <input type="text" id="name" name="name" class="form-control" placeholder="" required />
+        <div class="invalid-feedback" data-i18n="contact_name_error">Please enter your name.</div>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label" data-i18n="contact_email">Email Address</label>
+        <input type="email" id="email" name="email" class="form-control" placeholder="" required />
+        <div class="invalid-feedback" data-i18n="contact_email_error">Please enter a valid email address.</div>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label" data-i18n="contact_message">Message</label>
+        <textarea id="message" name="message" class="form-control" rows="5" placeholder="" required></textarea>
+        <div class="invalid-feedback" data-i18n="contact_message_error">Please enter a message.</div>
+      </div>
+      <button type="submit" class="btn btn-gold" data-i18n="contact_submit">Send Message</button>
+      <div class="alert alert-success d-none mt-3" id="formSuccess" data-i18n="form_success">
+        Thank you for contacting us! We will get back to you shortly.
+      </div>
+    </form>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-dark-azure text-white text-center py-3 mt-5">
+  <div class="container">
+    <p data-i18n="footer_copy">&copy; 2025 Dynamic WhiteSpace Ltd. All Rights Reserved.</p>
+    <p><span data-i18n="footer_email">Email</span>: dynamicwhitespace@gmail.com | <span data-i18n="footer_phone">Phone: 0746268687</span></p>
+    <div class="social-links mt-2">
+      <a href="https://www.facebook.com/share/1BxSRb2Z92/?mibextid=wwxlfr"target="_blank" class="text-white mx-2" aria-label="Facebook" data-i18n="footer_facebook">
+        <i class="bi bi-facebook fs-4"></i>
+      </a>
+      <a href="https://twitter.com/dynamicwhitespace" target="_blank" class="text-white mx-2" aria-label="Twitter" data-i18n="footer_twitter">
+        <i class="bi bi-twitter fs-4"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/dynamic-whitespace" target="_blank" class="text-white mx-2" aria-label="LinkedIn" data-i18n="footer_linkedin">
+        <i class="bi bi-linkedin fs-4"></i>
+      </a>
+      <a href="https://instagram.com/dynamicwhitespace" target="_blank" class="text-white mx-2" aria-label="Instagram" data-i18n="footer_instagram">
+        <i class="bi bi-instagram fs-4"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</body>
+</html>
