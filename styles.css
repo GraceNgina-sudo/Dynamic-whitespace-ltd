@@ -42,9 +42,24 @@ body {
 /* Hero */
 .hero {
   background-color: var(--white);
+  padding: 6rem 1rem;
 }
 .hero .hero-title {
+  font-size: 2.2rem;
+  line-height: 1.2;
   animation: FadeInUp 1s ease; 
+}
+
+@media (max-width: 768px){
+  .hero {
+    padding: 4rem 1rem;
+  }
+  .hero .hero-title {
+    font-size: 1.8rem;
+  }
+  .hero p{
+    font-size: 1rem;
+  }
 }
 @keyframes FadeInUp {
   from {
