@@ -52,14 +52,21 @@ body {
 
 @media (max-width: 768px){
   .hero {
-    padding: 4rem 1rem;
+    padding: 2.5rem 0.5rem !important;
   }
   .hero .hero-title {
-    font-size: 1.8rem;
+    font-size: 1.35rem !important;
+    line-height: 1.25 !important;
+    margin-bottom: 1rem !important;
   }
-  .hero p{
-    font-size: 1rem;
+  .hero p lead{
+    font-size: 1rem !important;
+    margin-bottom: 1.5rem !important;
   }
+  .hero .btn-gold {
+    padding: 0.65rem 1.2rem !important;
+    font-size: 1rem !important;
+}
 }
 @keyframes FadeInUp {
   from {
