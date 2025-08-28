@@ -2,22 +2,16 @@
   'use strict';
 
   const form = document.getElementById('contactForm');
-  const successMsg = document.getElementById('formSuccess');
+  if (form) {
+    form.addEventListener('submit', function (event) {
 
-  form.addEventListener('submit', function (event) {
+  if (!form.checkValidity()) {
     event.preventDefault();
-
-    if (!form.checkValidity()) {
       form.classList.add('was-validated');
       return;
-    }
-
-    successMsg.classList.remove('d-none');
-    form.reset();
-    form.classList.remove('was-validated');
-
-    setTimeout(() => successMsg.classList.add('d-none'), 5000);
+}
     });
+  }
   
 async function loadLanguage(lang) {
     try {
