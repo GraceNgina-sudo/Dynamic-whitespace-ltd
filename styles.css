@@ -115,7 +115,8 @@ body {
 
 /* Cards */
 .border-gold {
-  border: 2px solid var(--gold) !important;
+  border: 1px solid rgba(188, 156, 34, 0.9) !important;
+  box-shadow: none !important;
 }
 
 .text-gold {
@@ -123,21 +124,23 @@ body {
 }
 
 .service-card {
-  border: 1px solid #c49a53;
+  border: 1px solid rgba(196, 154, 83, 0.9);
   border-radius: 12px;
   background: #fff;
   padding: 1.5rem 1rem;
   margin: 0.5rem 0;
-  transition: box-shadow 0.3s;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  background-clip: padding-box;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 260px;
 }
 .service-card:hover {
-  box-shadow: 0 6px 18px rgba(0,0,0,0.10);
-  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transform: translateY(-4px);
 }
 .service-icon {
   font-size: 2rem;

@@ -145,6 +145,11 @@
   padding: 2rem 1.5rem;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+}
+#mc_embed_singup,
+#mc_embed_signup * {
+  box-sizing: border-box;
 }
 
 #mc_embed_signup .indicates-required {
@@ -184,6 +189,21 @@
   border: 1px solid #c49a53;
 }
 
+#mc_embed_signup input.button,
+ #mc_embed_signup .button {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    white-space: normal !important;
+    overflow: visible !important;
+  }
+
+  #mc_embed_signup .optionalParent .clear {
+    display: block !important;
+    width: 100% !important;
+  }
+
 #mc_embed_signup .button {
   background-color: #c49a53;
   border: none;
@@ -198,7 +218,7 @@
 
 #mc_embed_signup .button:hover {
   background-color: #a67c35;
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 #mc_embed_signup label {
@@ -232,6 +252,12 @@
     padding: 0.65rem 0.75rem;
     font-size: 0.95rem;
   }
+
+  #mc_embed_signup input.button,
+   #mc_embed_signup .button {
+      padding: 0.65rem 1rem !important;
+      font-size: 0.95rem !important;
+}
 }
     </style>
     <form action="https://notlaunched.us19.list-manage.com/subscribe/post?u=80f6424103579a50e906cd219&amp;id=b34fab6c6a&amp;f_id=003d7ee7f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
