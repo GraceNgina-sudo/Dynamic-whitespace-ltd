@@ -141,11 +141,11 @@ body {
 .service-card {
   border: 1px solid rgba(196, 154, 83, 0.9);
   border-radius: 12px;
-  background: #fff;
+  background: #ffffff !important;
   padding: 1.5rem 1rem;
   margin: 0.5rem 0;
   transition: box-shadow 0.25s ease, transform 0.25s ease;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
   background-clip: padding-box;
   overflow: hidden;
   display: flex;
@@ -153,8 +153,11 @@ body {
   align-items: center;
   min-height: 260px;
 }
+.services-section{
+  background-color: #ffffff !important;
+}
 .service-card:hover {
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  box-shadow: none;
   transform: translateY(-4px);
 }
 .service-icon {
