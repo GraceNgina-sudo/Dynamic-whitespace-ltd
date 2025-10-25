@@ -5,14 +5,47 @@
   --white: #ffffff;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Playfair+Display:wght@400;600;700&family=poppins:wght@300;400;600&display=swap');
+
 /* Base Styles */
 body {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 400;
   background-color: var(--white);
   color: var(--dark-azure);
   line-height: 1.6;
 }
 
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.section-title,
+.hero .hero-title,
+.service-card h3 {
+  font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* Accent / Tagline / Quotes */
+.text-accent,
+.tagline,
+blockquote,
+.hero .subtitle {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Slight size/weight tweaks to keep balance */
+.hero .hero-title { font-weight: 700; line-height: 1.08; }
+.section-title { font-weight: 600; }
+.service-card h3 { font-weight: 600; font-size: 1.15rem; }
+
+/* Fallbacks for small screens */
+@media (max-width: 576px) {
+  .hero .hero-title { font-size: 1.2rem; }
+  .section-title { font-size: 1.25rem; }
+}
 .logo {
   max-height: 40px;
   margin-right: 10px;
