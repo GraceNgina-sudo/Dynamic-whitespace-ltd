@@ -5,7 +5,6 @@
   --white: #ffffff;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;600&family=Playfair+Display:wght@400;600;700&family=poppins:wght@300;400;600&display=swap');
 
 /* Base Styles */
 body {
@@ -21,7 +20,7 @@ h1, h2, h3, h4, h5, h6,
 .section-title,
 .hero .hero-title,
 .service-card h3 {
-  font-family: 'Playfair Display', 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', 'Cormorant Garamond', Georgia, 'Times New Roman', Times, serif;
   font-weight: 600;
   letter-spacing: 0.2px;
 }
@@ -303,6 +302,37 @@ footer {
     font-size: 1rem !important;
     padding: 0.65rem 1.2rem !important;
   }
+
+/* Subscribe button: centered and smaller */
+#mc_embed_signup .optionalParent .clear,
+#mc_embed_signup .clear {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+#mc_embed_signup .button,
+#mc_embed_signup input#mc-embedded-subscribe {
+  display: inline-block !important;
+  margin: 0.5rem auto 0 !important;
+  width: auto !important;
+  min-width: 120px !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.95rem !important;
+  border-radius: 24px !important;
+  box-shadow: none !important;
+  white-space: nowrap !important;
+}
+
+/* Mobile: slightly smaller button */
+@media (max-width: 576px) {
+  #mc_embed_signup .button,
+  #mc_embed_signup input#mc-embedded-subscribe {
+    min-width: 100px !important;
+    padding: 0.45rem 0.9rem !important;
+    font-size: 0.9rem !important;
+  }
+}
 
   /* Footer */
   footer,
