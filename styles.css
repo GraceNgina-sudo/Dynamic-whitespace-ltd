@@ -344,5 +344,27 @@ footer {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
+
 }
+
+/* Ensure navbar logo is visible and responsive */
+.logo {
+  display: inline-block !important;
+  width: auto !important;
+  max-width: 56px !important;
+  height: 56px !important;
+  object-fit: contain !important;
+  vertical-align: middle !important;
+}
+
+/* Slightly smaller on phones */
+@media (max-width: 576px) {
+  .logo {
+    max-width: 44px !important;
+    height: 44px !important;
+  }
+}
+
+
+
 
