@@ -26,19 +26,28 @@
       const candidates = [
         `./Lang/${lang}.json`,
         `/Lang/${lang}.json`,
-        `Lang/${lang}.json`
+        `Lang/${lang}.json`,
+        '../Lang/${lang}.json'
       ];
-      for (const p of candidates) {
-        try {
-          const res = await fetch(p, { cache: 'no-store' });
-          if (!res.ok) continue;
-          return await res.json();
-        } catch (e) {
-          // try next candidate
-        }
+      let lastError;
+  for (const path of candidates) {
+    try {
+      console.log(`Trying to load language file from: ${path}`);
+      const res = await fetch(path);
+      if (!res.ok) {
+        console.log(`Failed to load from ${path}: ${res.status} ${res.statusText}`);
+        continue;
       }
-      throw new Error(`Language file for "${lang}" not found`);
+      const data = await res.json();
+      console.log(`Successfully loaded language file from ${path}`);
+      return data;
+    } catch (e) {
+      console.log(`Error loading from ${path}:`, e);
+      lastError = e;
     }
+  }
+  throw lastError || new Error(`Language file for "${lang}" not found`);
+}
 
     async function loadLanguage(lang) {
       try {
